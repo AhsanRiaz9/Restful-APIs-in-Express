@@ -22,8 +22,6 @@ const getStudent = (ID)=>{
 }
 
 
-
-
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
@@ -75,10 +73,6 @@ app.delete('/students/:id', (req, res) => {
     
 });
 
-
-
-
-
 app.get('/contactUs', (req, res) => {
     res.send('Contact Us');
 });
@@ -86,8 +80,6 @@ app.get('/contactUs', (req, res) => {
 app.get('/login', (req, res) => {
     res.send('Login Page');
 });
-
-
 
 const port = process.env.PORT || 3000;
 app.listen(port,()=>console.log(`Listening to Port: ${port}`));
