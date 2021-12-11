@@ -43,7 +43,7 @@ app.get('/students/:id', (req, res) => {
 });
 
 app.put('/students', (req, res) => {
-	dbh.data.push({"ID":dbh.data.length, "Name":"New Name"});
+	dbh.data.push({"ID":dbh.data.length+1, "Name":"New Name"});
 	res.send(dbh.data);
 });
 
