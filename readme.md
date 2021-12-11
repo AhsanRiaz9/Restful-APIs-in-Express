@@ -10,7 +10,7 @@ This repo contain practice of restful apis in express js.
 ### How to run:
 
 #### clone this repo:
-git clone https://github.com/AhsanRiaz9/Restful-APIs-in-Express
+	git clone https://github.com/AhsanRiaz9/Restful-APIs-in-Express
 
 #### Installing required packages
 	npm init --save
