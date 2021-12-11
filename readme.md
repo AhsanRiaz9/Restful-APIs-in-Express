@@ -1,7 +1,7 @@
-# Restfull API's in Express JS
+# RESTful API's in Express JS
 This repo contain practice of restful apis in express js. 
 
-## Restfull APIs:
+## RESTful APIs:
 . GET 
 . DELETE
 . PUT
