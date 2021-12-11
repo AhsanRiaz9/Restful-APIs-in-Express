@@ -19,7 +19,8 @@ This repo contain practice of restful apis in express js.
 #### Run the project node index.js
 	node index.js
 
-Tools:
+### Tools:
+	Node JS
 	VS Code
 	Postman for testing apis
 
